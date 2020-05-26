@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style1.css">
+    <title>Tetris</title>
+</head>
+
+<body>
+
+    <img src="/Images/tetris.png" id="introduction">
+
+    <div id="canvas">
+        <canvas id="tetris" width="200" height="400"></canvas>
+    </div>
+
+    <div id="Menu">
+        <ul>
+            <li><img src="tetris/Images/play.png" id="b1" alt="Button play"></li> 
+            <li><img src="/Images/credits.png" id="b2" alt="Button Credits"></li>
+            <li><img src="\Images\settings.png" id="b3" alt="Button settings"></li>
+        </ul>
+    </div>
+    
+    <div id="Credits">
+        <img src="/Images/developer.png" id="dp" alt="Credits">
+        <img src="/Images/back.png" id="cb" alt="Button back">
+    </div>
+    <div id="under">
+       <p><b>Your score:</b> <span id="score"></span></p>
+       <p><b>High Score:</b> <span id="HS"></span>
+    </div></p>
+
+    <div id="line">
+        <div id="left">
+            <img src="/Images/bUp.png" id="rotB" alt="Rotate Button" srcset="">
+        </div>
+
+        <div id="right">
+            <div id="Buttons">
+                <div>
+                    <img src="/Images/bL.png" id="bL" alt="Button left" srcset="">
+                    <img src="/Images/bR.png" id="bR" alt="Button right" srcset="">
+                </div>
+                <img src="/Images/bDown.png" id="bD" alt="Button down" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+    <div id ="Settings">
+        <div id="cSettings">
+            <img src="/Images/Sounds.png" id="sON" alt="">
+            <img src="/Images/SoundsOff.png" id="sOFF" alt="" srcset="">
+        </div>
+
+        <div id="bgSettings">
+            <img src="/Images/bgOff.png" id="bgOFF" alt="" srcset="">
+            <img src="/Images/bgON.png" id="bgON" alt="">
+ 
+        </div>
+    </div>
+    
+
+
+    <script src="terminoes.js"></script>
+    <script src="tet.js"></script>
+
+</body>
+</html>
